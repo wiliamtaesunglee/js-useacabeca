@@ -27,6 +27,6 @@ while (isSunk == false); {
   }
 }
 
-var stats =   ${"you took"} + guesses + ${"guesses to sink the batleship,"} + ${"which means you shoopting accuaracy was"} + (3/guesses);
+var status =   "you took " + guesses + "guesses to sink the batleship, " + "which means you shoopting accuaracy was " + (3/guesses);
 alert(status);
 
